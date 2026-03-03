@@ -1,0 +1,63 @@
+h1{
+    font-size: 16px;
+    color: #db8d8d;
+    font-weight: bold;
+}
+
+img{
+    border-radius: 50px;
+}
+section{background-color: rgb(221, 246, 238);
+
+;}
+
+.body text {
+    font-size:16px;
+    color: rgb(223, 200, 244);
+    background-color:beige;
+}
+
+
+/* .red-hat-text-<uniquifier> {
+  font-family: "Red Hat Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+.button-section{
+    padding-top:10rem;
+    padding-bottom:10rem;
+}
+
+.cta-button{
+    font-size: 32px;
+    background-color: antiquewhite;
+    box-shadow: 10px;
+    padding: 1rem 3rem;
+    filter:drop-shadow(0);
+    border: radius 5px;
+    transition:.2s scale ease-in, .4s transform ease-in;
+}
+wobble {
+    animation: animate__wobble;
+    animation-duration: 2s
+}
+   
+.cta-button:focus{
+    background-color: rgb(114, 58, 131);
+}
+
+@keyframes grow{
+    0%{
+        scale: 1;
+    }
+    80%{scale: 1.2;
+    }
+        100%{scale: 1
+        }
+}
+.opacity-0{
+    opacity: 0
+    transition:opacity .6s ease-out;
+}
